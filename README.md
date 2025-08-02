@@ -1,5 +1,4 @@
 
-````markdown
 # 📜 TOS Analyzer — Terms of Service Red Flag Detector
 
 Have you ever blindly accepted a website’s **Terms of Service** or **Privacy Policy** without reading it? 😅  
