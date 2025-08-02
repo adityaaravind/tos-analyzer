@@ -1,12 +1,15 @@
+
 ````markdown
 # 📜 TOS Analyzer — Terms of Service Red Flag Detector
 
 Have you ever blindly accepted a website’s **Terms of Service** or **Privacy Policy** without reading it? 😅  
 You're not alone — and that’s exactly why this tool exists.
 
+---
+
 ## 🔍 What It Does
 
-**TOS Analyzer** scans any public Terms of Service or Privacy Policy page and highlights **concerning phrases** — things like:
+**TOS Analyzer** scans any public Terms of Service or Privacy Policy page and highlights **concerning phrases**, such as:
 
 - “We may share your data”
 - “Without notice”
@@ -23,30 +26,30 @@ You're not alone — and that’s exactly why this tool exists.
 
 🌐 **Deployed App (Streamlit Cloud):**  
 [https://your-deployment-url.streamlit.app](https://your-deployment-url.streamlit.app)  
-_(replace this with your real link!)_
+_Replace this with your actual deployed link._
 
 ---
 
 ## 💡 Features
 
-✅ Copy-paste a TOS or Privacy Policy URL  
-✅ Instantly highlights legal red flags  
-✅ View full extracted text  
-✅ Super clean and easy UI  
-✅ Linux `.desktop` launcher included 🧠
+✅ Input any TOS or Privacy Policy URL  
+✅ Detects and highlights legal red flags  
+✅ Clean UI with full text preview  
+✅ Designed for non-technical users  
+✅ Includes a Linux `.desktop` launcher
 
 ---
 
-## 🚀 Run It Locally (For Devs & Enthusiasts)
+## 🚀 Run It Locally (for Developers)
 
-### 1. Clone the Repo
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/tos-analyzer.git
 cd tos-analyzer
-```
+````
 
-### 2. Create Virtual Environment
+### 2. Create a Virtual Environment
 
 ```bash
 python3 -m venv venv
@@ -59,28 +62,26 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Launch the App
+### 4. Run the App
 
 ```bash
 streamlit run app.py
 ```
 
-Then open `http://localhost:8501` in your browser!
+Open your browser to [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🖱️ Linux Desktop Shortcut (Optional)
+## 🖱️ Add to Your Desktop (Linux)
 
-This repo includes a `.desktop` file so you can launch the app like a native application!
-
-### To enable:
+To run like a native app with one click:
 
 ```bash
 cp tos-analyzer.desktop ~/.local/share/applications/
 chmod +x start_tos.sh
 ```
 
-Now search your app menu for **"TOS Analyzer"** and launch it with 1 click! 🎉
+Then search your system menu for **TOS Analyzer** 🎉
 
 ---
 
@@ -88,38 +89,45 @@ Now search your app menu for **"TOS Analyzer"** and launch it with 1 click! 🎉
 
 ```
 tos-analyzer/
-│
-├── app.py                   # Main Streamlit app
-├── requirements.txt         # Dependencies
-├── start_tos.sh             # Linux launcher script
-├── tos-analyzer.desktop     # Desktop shortcut
-└── README.md
+├── app.py                   # Streamlit app
+├── requirements.txt         # Python dependencies
+├── start_tos.sh             # Bash launcher
+├── tos-analyzer.desktop     # Linux desktop shortcut
+└── README.md                # You're here!
 ```
 
 ---
 
-## 🤝 Contribute
+## 🤝 Contributing
 
-Got ideas? Want to add support for PDF uploads or browser extensions?  
-Feel free to fork the project and open a pull request!
+Have an idea for improvement?
+Want to support PDF uploads, summaries, or browser extensions?
+Fork the repo and open a pull request! 💡
 
 ---
 
 ## ⚖️ Disclaimer
 
-This tool is an educational aid. It doesn't replace a lawyer or legal advice.  
-Always review important legal documents thoroughly.
+This tool is for educational use. It does not replace legal advice.
+Please review important documents carefully before agreeing to them.
 
 ---
 
 ## 🧑‍💻 Built With
 
-* [Streamlit](https://streamlit.io/) – for the beautiful UI  
-* [Python Requests](https://docs.python-requests.org/)  
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+* [Streamlit](https://streamlit.io/) – for the frontend UI
+* [Requests](https://docs.python-requests.org/) – to fetch web pages
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) – to extract clean text
 
 ---
 
-## 🙌 Stay Safe and Informed!
+## 🙌 Stay Safe and Informed
 
-If you found this useful, give the repo a ⭐ and share with someone who skips reading TOS every time 😉
+If you found this useful, drop a ⭐ on GitHub and share it with someone who always skips the fine print! 😉
+
+```
+
+---
+
+Let me know if you want this saved as a file, committed to your repo, or need a version with deploy badges and screenshots!
+```
