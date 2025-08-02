@@ -24,8 +24,7 @@ You're not alone — and that’s exactly why this tool exists.
 ## 🖥️ Try It Online
 
 🌐 **Deployed App (Streamlit Cloud):**  
-[https://your-deployment-url.streamlit.app](https://your-deployment-url.streamlit.app)  
-_Replace this with your actual deployed link._
+[[https://your-deployment-url.streamlit.app](https://your-deployment-url.streamlit.app](https://tos-analyzer.streamlit.app/))  
 
 ---
 
