@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=TOS Analyzer
+Comment=Analyze Terms of Service for legal red flags
+Exec=/home/estipix/projects/tos_analyzer_enhanced/start_tos.sh
+Icon=text-x-generic
+Terminal=false
+Type=Application
+Categories=Utility;
