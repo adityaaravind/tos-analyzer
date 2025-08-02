@@ -1,7 +1,3 @@
-Absolutely! Here's a friendly, emoji-rich `README.md` for your **Terms of Service Analyzer** project, designed to be clear for both technical and non-technical users:
-
----
-
 ````markdown
 # 📜 TOS Analyzer — Terms of Service Red Flag Detector
 
@@ -48,7 +44,7 @@ _(replace this with your real link!)_
 ```bash
 git clone https://github.com/YOUR_USERNAME/tos-analyzer.git
 cd tos-analyzer
-````
+```
 
 ### 2. Create Virtual Environment
 
@@ -104,22 +100,22 @@ tos-analyzer/
 
 ## 🤝 Contribute
 
-Got ideas? Want to add support for PDF uploads or browser extensions?
+Got ideas? Want to add support for PDF uploads or browser extensions?  
 Feel free to fork the project and open a pull request!
 
 ---
 
 ## ⚖️ Disclaimer
 
-This tool is an educational aid. It doesn't replace a lawyer or legal advice.
+This tool is an educational aid. It doesn't replace a lawyer or legal advice.  
 Always review important legal documents thoroughly.
 
 ---
 
 ## 🧑‍💻 Built With
 
-* [Streamlit](https://streamlit.io/) – for the beautiful UI
-* [Python Requests](https://docs.python-requests.org/)
+* [Streamlit](https://streamlit.io/) – for the beautiful UI  
+* [Python Requests](https://docs.python-requests.org/)  
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 
 ---
@@ -127,9 +123,3 @@ Always review important legal documents thoroughly.
 ## 🙌 Stay Safe and Informed!
 
 If you found this useful, give the repo a ⭐ and share with someone who skips reading TOS every time 😉
-
-```
-
----
-
-```
